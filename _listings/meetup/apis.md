@@ -28,7 +28,7 @@ apis:
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/meetup/2-event-comments-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/meetup/2-event-comment-post.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
