@@ -31,7 +31,7 @@ apis:
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/disqus/posts-vote-json-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/disqus/threads-close-json-post.md
 x-common:
 - type: x-base
   url: https://disqus.com/api/
