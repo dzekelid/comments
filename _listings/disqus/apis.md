@@ -17,8 +17,8 @@ tags:
 - Media
 - Content
 - Comments
-created: "2018-03-10"
-modified: "2018-03-10"
+created: "2018-03-13"
+modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/disqus/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -31,7 +31,7 @@ apis:
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/disqus/whitelists-remove-json-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/disqus/aet-dismiss-json-post.md
 x-common:
 - type: x-base
   url: https://disqus.com/api/
