@@ -40,7 +40,7 @@ apis:
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/github/gists-id-comments-commentid-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/github/gists-id-comments-commentid-get.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
