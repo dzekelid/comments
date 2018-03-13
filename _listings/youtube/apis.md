@@ -26,7 +26,7 @@ apis:
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/youtube/comments-setmoderationstatus-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/youtube/comments-setmoderationstatus-post.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
