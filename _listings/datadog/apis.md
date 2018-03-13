@@ -19,18 +19,7 @@ created: "2018-03-13"
 modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/datadog/apis.yaml
 specificationVersion: "0.14"
-apis:
-- name: DataDog API
-  description: Datadog is a monitoring service that brings together metrics and events
-    from servers, databases, applications, tools and services to present a unified
-    view of the infrastructure
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
-  humanURL: ""
-  baseURL: https:///api/v1/
-  tags: Comments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/datadog/comments-post.md
+apis: []
 x-common:
 - type: x-blog
   url: https://www.datadoghq.com/blog/
