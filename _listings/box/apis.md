@@ -33,7 +33,7 @@ apis:
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/box/comments-comment-id-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/box/comments-comment-id-delete.md
 x-common:
 - type: x-base
   url: https://api.box.com/
