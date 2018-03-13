@@ -31,7 +31,7 @@ apis:
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/disqus/internal-forums-actionhistory-update-json-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/disqus/organizations-listadmins-json-get.md
 x-common:
 - type: x-base
   url: https://disqus.com/api/
