@@ -33,7 +33,7 @@ apis:
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/soundcloud/tracks-track-id-comments-json-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/soundcloud/users-user-id-comments-json-get.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
