@@ -40,7 +40,7 @@ apis:
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/github/repos-owner-repo-issues-number-comments-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/github/repos-owner-repo-issues-number-comments-post.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
