@@ -19,19 +19,7 @@ created: "2018-03-13"
 modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/datadog/apis.yaml
 specificationVersion: "0.14"
-apis:
-- name: DataDog API Add Comments
-  description: |-
-    Comments are essentially special forms of events that
-              appear in the stream. They can start a new discussion thread or
-              optionally, reply in another thread.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
-  humanURL: https://www.datadoghq.com/
-  baseURL: https://{host}/api/v1/
-  tags: Comments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/datadog/comments-post.md
+apis: []
 x-common:
 - type: x-blog
   url: https://www.datadoghq.com/blog/
