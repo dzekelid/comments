@@ -34,17 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/angellist/startups-startup-id-comments-get.md
-- name: AngelList Delete Comment
-  description: Deletes a comment for given object
+- name: AngelList Get Startup Comments
+  description: Get Startup Comments
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1/
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/angellist/comments-comment-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/angellist/startups-startup-id-comments-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/angellist/comments-comment-id-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/angellist/startups-startup-id-comments-get-postman.md
 x-common:
 - type: x-blog
   url: https://blog.angel.co
