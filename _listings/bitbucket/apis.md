@@ -26,18 +26,27 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/bitbucket/snippets-username-encoded-id-comments-comment-id-put.md
-- name: Bitbucket Parameters Repositories Username Repo Slug Issues Issue  Comments
-    Comment
-  description: Parameters repositories username repo slug issues issue  comments comment
+- name: Bitbucket Get Repositories Username Repo Slug Pullrequests Pull Request  Comments
+  description: |-
+    Returns a paginated list of the pull request's comments.
+
+    This includes both global, inline comments and replies.
+
+    The default sorting is oldest to newest and can be overridden with
+    the `sort` query parameter.
+
+    This endpoint also supports filtering and sorting of the results. See
+    [filtering and sorting](../../../../../../meta/filtering) for more
+    details.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
   humanURL: https://bitbucket.org/
   baseURL: https://api.bitbucket.org//2.0
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/bitbucket/repositories-username-repo-slug-issues-issue-id-comments-comment-id-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/bitbucket/repositories-username-repo-slug-pullrequests-pull-request-id-comments-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/bitbucket/repositories-username-repo-slug-issues-issue-id-comments-comment-id-parameters-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/bitbucket/repositories-username-repo-slug-pullrequests-pull-request-id-comments-get-postman.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
