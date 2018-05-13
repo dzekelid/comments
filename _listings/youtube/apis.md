@@ -27,15 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/youtube/comments-setmoderationstatus-post.md
-- name: Youtube Put Comments
-  description: Modifies a comment.
+- name: Youtube Parameters Comments Mark as SPAM
+  description: Parameters comments markasspam
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/youtube/comments-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/youtube/comments-markasspam-parameters.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/youtube/comments-markasspam-parameters-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
