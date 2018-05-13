@@ -34,17 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/angellist/startups-startup-id-comments-get.md
-- name: AngelList Get Comments
-  description: Pulls the comments for given object.
+- name: AngelList Add Comment
+  description: Adds a comment for given object
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1/
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/angellist/comments-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/angellist/comments-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/angellist/comments-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/angellist/comments-post-postman.md
 x-common:
 - type: x-blog
   url: https://blog.angel.co
