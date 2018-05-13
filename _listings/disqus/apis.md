@@ -50,15 +50,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/disqus/users-follow-json-post.md
-- name: Disqus Users ListActivity
-  description: Users ListActivity
+- name: Disqus Users ListFollowers
+  description: Users ListFollowers
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/disqus-logo-icon-750.jpg
   humanURL: https://disqus.com/
   baseURL: https://disqus.com/api/3.0/
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/disqus/users-listactivity-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/disqus/users-listfollowers-json-get.md
 x-common:
 - type: x-base
   url: https://disqus.com/api/
