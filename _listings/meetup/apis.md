@@ -29,16 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/meetup/urlname-events-event-id-photos-photo-id-comments-get.md
-- name: Meetup Comments v2
-  description: This method returns messages that appear under Talk about this Meetup.
-    To post messages, see the corresponding write method.
+- name: Meetup Event Comment v2
+  description: This method posts messages that appear under Talk about this Meetup.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/meetup/2-event-comments-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/meetup/2-event-comment-post.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
