@@ -41,15 +41,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/instagram/media-media-id-comments-delete.md
-- name: Instagram Instagram Carousel Comments
-  description: Instagram Carousel Comments
+- name: Instagram Instagram Carousel Instagram Comments
+  description: Instagram Carousel Instagram Comments
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
   humanURL: http://instagram.com
   baseURL: https://graph.facebook.com//v3.0
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/instagram/#123;instagram-carousel-id-#125;-comments-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/instagram/#123;instagram-carousel-id-#125;-instagram-comments-get.md
 x-common:
 - type: x-application-management
   url: https://instagram.com/accounts/manage_access/
