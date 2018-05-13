@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/linkedin/companies-id-updates-key-update-key-update-comments-get.md
-- name: LinkedIn Add Companies Updates Key Update Key Update Comments As Company
-  description: Post companies  updates key update key update comments as company
+- name: LinkedIn Get Companies Updates Key Update Key Update Comments
+  description: Get companies  updates key update key update comments
   image: https://avatars.githubusercontent.com/u/357098?v=3
   humanURL: http://linkedin.com
   baseURL: https://api.linkedin.com//v1
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/linkedin/companies-id-updates-key-update-key-update-comments-as-company-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/linkedin/companies-id-updates-key-update-key-update-comments-get.md
 x-common:
 - type: x-authentication
   url: https://developer.linkedin.com/documents/authentication
