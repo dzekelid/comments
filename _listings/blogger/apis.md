@@ -28,17 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/blogger/blogs-blogid-posts-postid-comments-commentid-spam-post.md
-- name: Blogger API Get Blog Post Comments
-  description: Retrieves the comments for a post, possibly filtered.
+- name: Blogger API Delete Blog Post Comments
+  description: Delete a comment by ID.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blogger-icon.png
   humanURL: https://www.blogger.com
   baseURL: http:://www.googleapis.com//blogger/v3
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/blogger/blogs-blogid-posts-postid-comments-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/blogger/blogs-blogid-posts-postid-comments-commentid-delete.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/blogger/blogs-blogid-posts-postid-comments-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/blogger/blogs-blogid-posts-postid-comments-commentid-delete-postman.md
 x-common:
 - type: x-blog
   url: https://blogger.googleblog.com/
