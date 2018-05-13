@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Blogger
-  description: API for access to the data within Blogger.
+  title: Blogger API Delete Blog Post Comments
+  description: Delete a comment by ID.
   contact:
     name: Google
     url: https://google.com
