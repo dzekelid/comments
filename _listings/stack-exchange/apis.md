@@ -27,17 +27,18 @@ url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master
 specificationVersion: "0.14"
 apis:
 - name: Stack Exchange My Comments
-  description: "Returns the comments owned by the user associated with the given access_token.\n
-    \nThis method returns a list of comments."
+  description: "Returns the comments owned by the user associated with the given access_token
+    that are in reply to the user identified by {toId}.\n \nThis method returns a
+    list of comments."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/me-comments-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/me-comments-toid-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/me-comments-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/me-comments-toid-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
