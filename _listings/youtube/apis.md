@@ -27,17 +27,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/youtube/comments-setmoderationstatus-post.md
-- name: Youtube Parameters Comments Set Moderation Status
-  description: Parameters comments setmoderationstatus
+- name: Youtube Add Comments Set Moderation Status
+  description: Sets the moderation status of one or more comments. The API request
+    must be authorized by the owner of the channel or video associated with the comments.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/youtube/comments-setmoderationstatus-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/youtube/comments-setmoderationstatus-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/youtube/comments-setmoderationstatus-parameters-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/youtube/comments-setmoderationstatus-post-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
