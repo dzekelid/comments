@@ -1,9 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Disqus
-  description: Welcome to the Disqus Web API. The API enables developers to communicate
-    with Disqus data from within their own applications.
+  title: Disqus Categories List
+  description: Categories List
   termsOfService: https://docs.disqus.com/kb/terms-and-policies/
   version: 1.0.0
 host: disqus.com
@@ -15,10 +14,8 @@ produces:
 consumes:
 - application/json
 paths:
-  ? |2-
-
-        /categories/list.json
-  : get:
+  /categories/list.json:
+    get:
       summary: Categories List
       description: "\n     Categories List "
       operationId: categories-list
@@ -52,16 +49,16 @@ paths:
 definitions: []
 x-collection-name: Disqus
 x-streamrank:
-  polling_total_time_average: 0
-  polling_size_download_average: 0
-  streaming_total_time_average: 0
-  streaming_size_download_average: 0
-  change_yes: 0
-  change_no: 0
-  time_percentage: 0
-  size_percentage: 0
-  change_percentage: 0
-  last_run: ""
-  days_run: 0
-  minute_run: 0
+  polling_total_time_average: "0.1"
+  polling_size_download_average: "89"
+  streaming_total_time_average: "0.05"
+  streaming_size_download_average: "48.5"
+  change_yes: "2"
+  change_no: "0"
+  time_percentage: "49"
+  size_percentage: "46"
+  change_percentage: "100"
+  last_run: "2018-05-04"
+  days_run: "0"
+  minute_run: "0"
 ---
