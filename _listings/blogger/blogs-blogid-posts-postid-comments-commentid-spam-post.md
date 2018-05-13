@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Blogger
-  description: API for access to the data within Blogger.
+  title: Blogger API Update Blog Post Comment SPAM
+  description: Marks a comment as spam.
   contact:
     name: Google
     url: https://google.com
