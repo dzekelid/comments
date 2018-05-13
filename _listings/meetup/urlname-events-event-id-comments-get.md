@@ -1,11 +1,13 @@
 ---
 swagger: "2.0"
 info:
-  title: Meetup
-  description: 'The Meetup API provides simple RESTful HTTP and streaming interfaces
-    for exploring and interacting Meetup platform from your own apps. The API is a
-    set of core methods and a common request format. These are combined to form a
-    URL that returns the information you want. '
+  title: Meetup Event Comments List
+  description: |-
+    Lists the comments and replies posted in a given Meetup Event.
+
+    To view the list of likes for a comment or reply
+    see the [likes](/meetup_api/docs/:urlname/events/:event_id/comments/:comment_id/likes/)
+    endpoint
   version: 1.0.0
 host: api.meetup.com
 basePath: /
