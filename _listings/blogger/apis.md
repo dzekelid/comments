@@ -28,17 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/blogger/blogs-blogid-posts-postid-comments-commentid-spam-post.md
-- name: Blogger API Get Blog Post Comment
-  description: Gets one comment by ID.
+- name: Blogger API Update Blog Post Comment
+  description: Marks a comment as not spam.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blogger-icon.png
   humanURL: https://www.blogger.com
   baseURL: http:://www.googleapis.com//blogger/v3
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/blogger/blogs-blogid-posts-postid-comments-commentid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/blogger/blogs-blogid-posts-postid-comments-commentid-approve-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/blogger/blogs-blogid-posts-postid-comments-commentid-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/blogger/blogs-blogid-posts-postid-comments-commentid-approve-post-postman.md
 x-common:
 - type: x-blog
   url: https://blogger.googleblog.com/
