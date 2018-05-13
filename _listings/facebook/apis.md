@@ -37,7 +37,7 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/facebook/object-id-comments-put.md
-- name: Facebook Get Object Comments
+- name: Facebook Post Object Comments
   description: 'This reference describes the /comments edge that is common to multiple
     Graph API nodes. The structure and operations are the same for each node. The
     following objects has a /comments edge:'
@@ -47,7 +47,7 @@ apis:
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/facebook/#123;object-id-#125;-comments-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/facebook/#123;object-id-#125;-comments-post.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
