@@ -1,9 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: AngelList
-  description: The AngelList API provides developers with a RESTful interface to the
-    AngelList data set. For more information, read the OAuth FAQ.
+  title: AngelList Delete Comment
+  description: Deletes a comment for given object
   termsOfService: https://angel.co/terms
   contact:
     name: AngelList
