@@ -26,24 +26,18 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stack Exchange Get Comment
-  description: "Gets the comments identified in id.\n \nThis method is most useful
-    if you have a cache of comment ids obtained through other means (such as /questions/{id}/comments)
-    but suspect the data may be stale.\n \n{ids} can contain up to 100 semicolon delimited
-    ids, to find ids programatically look for comment_id on comment objects.\n \nThe
-    sorts accepted by this method operate on the follow fields of the comment object:\n
-    - creation - creation_date\n - votes - score\n  creation is the default sort.\n
-    \n It is possible to create moderately complex queries using sort, min, max, fromdate,
-    and todate.\n \nThis method returns a list of comments."
+- name: Stack Exchange Delete Comment
+  description: "Deletes a comment.\n \nUse an access_token with write_access to delete
+    a comment.\n \nIn practice, this method will never return an object."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/comments-ids-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/comments-id-delete-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/comments-ids-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/comments-id-delete-post-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
