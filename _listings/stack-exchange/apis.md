@@ -26,25 +26,24 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stack Exchange Get Answer Comments
-  description: "Gets the comments on a set of answers.\n \nIf you know that you have
-    an answer id and need the comments, use this method. If you know you have a question
-    id, use /questions/{id}/comments. If you are unsure, use /posts/{id}/comments.\n
-    \n{ids} can contain up to 100 semicolon delimited ids, to find ids programatically
-    look for answer_id on answer objects.\n \nThe sorts accepted by this method operate
-    on the follow fields of the comment object:\n - creation - creation_date\n - votes
-    - score\n  creation is the default sort.\n \n It is possible to create moderately
-    complex queries using sort, min, max, fromdate, and todate.\n \nThis method returns
-    a list of comments."
+- name: Stack Exchange Get Comments
+  description: "Gets all the comments on the site.\n \nIf you're filtering for interesting
+    comments (by score, creation date, etc.) make use of the sort paramter with appropriate
+    min and max values.\n \nIf you're looking to query conversations between users,
+    instead use the /users/{ids}/mentioned and /users/{ids}/comments/{toid} methods.\n
+    \nThe sorts accepted by this method operate on the follow fields of the comment
+    object:\n - creation - creation_date\n - votes - score\n  creation is the default
+    sort.\n \n It is possible to create moderately complex queries using sort, min,
+    max, fromdate, and todate.\n \nThis method returns a list of comments."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/answers-ids-comments-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/comments-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/answers-ids-comments-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/comments-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
