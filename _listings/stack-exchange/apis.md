@@ -26,19 +26,26 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stack Exchange My Comments
-  description: "Returns the comments owned by the user associated with the given access_token
-    that are in reply to the user identified by {toId}.\n \nThis method returns a
-    list of comments."
+- name: Stack Exchange Get Post Comments
+  description: "Gets the comments on the posts identified in ids, regardless of the
+    type of the posts.\n \nThis method is meant for cases when you are unsure of the
+    type of the post id provided. Generally, this would be due to obtaining the post
+    id directly from a user.\n \n{ids} can contain up to 100 semicolon delimited ids,
+    to find ids programatically look for post_id, answer_id, or question_id on post,
+    answer, and question objects respectively.\n \nThe sorts accepted by this method
+    operate on the follow fields of the comment object:\n - creation - creation_date\n
+    - votes - score\n  creation is the default sort.\n \n It is possible to create
+    moderately complex queries using sort, min, max, fromdate, and todate.\n \nThis
+    method returns a list of comments."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/me-comments-toid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/posts-ids-comments-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/me-comments-toid-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/posts-ids-comments-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
