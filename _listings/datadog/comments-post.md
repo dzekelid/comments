@@ -1,8 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: DataDog Merged API
+  title: DataDog API Add Comments
   version: 1.0.0
+  description: |-
+    Comments are essentially special forms of events that
+              appear in the stream. They can start a new discussion thread or
+              optionally, reply in another thread.
 basePath: api/v1/
 schemes:
 - http
