@@ -41,15 +41,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/github/repos-owner-repo-pulls-number-comments-post.md
-- name: Github Add Gists  Comments
-  description: Create a commen
+- name: Github Delete Gists  Comments Comment
+  description: Delete a comment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/gists-id-comments-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/gists-id-comments-commentid-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/gists-id-comments-commentid-delete-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
