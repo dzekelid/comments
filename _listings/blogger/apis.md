@@ -28,7 +28,30 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/blogger/blogs-blogid-posts-postid-comments-commentid-spam-post.md
+- name: Blogger API Get Blog Post Comments
+  description: Retrieves the comments for a post, possibly filtered.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blogger-icon.png
+  humanURL: https://www.blogger.com
+  baseURL: http:://www.googleapis.com//blogger/v3
+  tags: Comments
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/blogger/blogs-blogid-posts-postid-comments-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/blogger/blogs-blogid-posts-postid-comments-get-postman.md
 x-common:
+- type: x-blog
+  url: https://blogger.googleblog.com/
+- type: x-website
+  url: https://www.blogger.com
+- type: x-blog-rss
+  url: http://buzz.blogger.com/atom.xml
+- type: x-developer
+  url: https://developers.google.com/blogger/
+- type: x-twitter
+  url: https://twitter.com/Blogger
+- type: x-getting-started
+  url: https://developers.google.com/blogger/docs/3.0/getting_started
 - type: x-blog
   url: https://blogger.googleblog.com/
 - type: x-website
