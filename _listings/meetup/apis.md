@@ -38,15 +38,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/meetup/2-event-comment-like-id-post.md
-- name: Meetup Event comment delete
-  description: Deletes comments posted in events
+- name: Meetup Event Comment and Reply Likes
+  description: Returns lists of likes for an event comment or reply
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/meetup/urlname-events-event-id-comments-comment-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/meetup/urlname-events-event-id-comments-comment-id-likes-get.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
