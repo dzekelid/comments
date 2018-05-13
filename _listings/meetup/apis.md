@@ -29,15 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/meetup/urlname-events-event-id-photos-photo-id-comments-get.md
-- name: Meetup Event Comment Flag
-  description: This method creates a spam report for comment content
+- name: Meetup Event Comment Unsubscribe
+  description: Unsubscribe to notifications for updates to a given comment thread
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/meetup/2-event-comment-flag-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/meetup/2-event-comment-subscribe-id-delete.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
