@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/soundcloud/comments-comment-id-json-get.md
-- name: SoundCloud Get Track Comment
-  description: Returns comments of a track by track id
+- name: SoundCloud Add Track Comment
+  description: Posts a comments to a track by track id
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Soundcloud-logo.jpg
   humanURL: http://soundcloud.com
   baseURL: https://api.soundcloud.com//
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/soundcloud/tracks-track-id-comments-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/soundcloud/tracks-track-id-comments-json-post.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
