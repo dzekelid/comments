@@ -1,9 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Disqus
-  description: Welcome to the Disqus Web API. The API enables developers to communicate
-    with Disqus data from within their own applications.
+  title: Disqus Posts ListPopular
+  description: Posts ListPopular
   termsOfService: https://docs.disqus.com/kb/terms-and-policies/
   version: 1.0.0
 host: disqus.com
@@ -15,10 +14,8 @@ produces:
 consumes:
 - application/json
 paths:
-  ? |2-
-
-        /posts/listPopular.json
-  : get:
+  /posts/listPopular.json:
+    get:
       summary: Posts ListPopular
       description: "\n     Posts ListPopular "
       operationId: posts-listpopular
@@ -83,16 +80,16 @@ paths:
 definitions: []
 x-collection-name: Disqus
 x-streamrank:
-  polling_total_time_average: 0
-  polling_size_download_average: 0
-  streaming_total_time_average: 0
-  streaming_size_download_average: 0
-  change_yes: 0
-  change_no: 0
-  time_percentage: 0
-  size_percentage: 0
-  change_percentage: 0
-  last_run: ""
-  days_run: 0
-  minute_run: 0
+  polling_total_time_average: "0.36"
+  polling_size_download_average: "10894.43"
+  streaming_total_time_average: "0.19"
+  streaming_size_download_average: "5455.06"
+  change_yes: "15"
+  change_no: "1189"
+  time_percentage: "47"
+  size_percentage: "50"
+  change_percentage: "1"
+  last_run: "2018-05-12"
+  days_run: "8"
+  minute_run: "0"
 ---
