@@ -26,18 +26,18 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stack Exchange Delete Comment
-  description: "Deletes a comment.\n \nUse an access_token with write_access to delete
-    a comment.\n \nIn practice, this method will never return an object."
+- name: Stack Exchange Edit Comment
+  description: "Edit an existing comment.\n \nUse an access_token with write_access
+    to edit an existing comment.\n \nThis method return the created comment."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/comments-id-delete-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/comments-id-edit-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/comments-id-delete-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/comments-id-edit-post-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
