@@ -50,15 +50,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/disqus/posts-getcontext-json-get.md
-- name: Disqus Posts ListReporters
-  description: Posts ListReporters
+- name: Disqus Posts Remove
+  description: Posts Remove
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/disqus-logo-icon-750.jpg
   humanURL: https://disqus.com/
   baseURL: https://disqus.com/api/3.0/
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/disqus/posts-listreporters-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/disqus/posts-remove-json-post.md
 x-common:
 - type: x-base
   url: https://disqus.com/api/
