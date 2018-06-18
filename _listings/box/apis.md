@@ -1,50 +1,86 @@
 ---
 name: Box
-description: Box Inc. (formerly Box.net) is an online file sharing and Cloud content
-  management service for enterprise companies. The company has adopted a freemium
-  business model, and provides 5 GB of free storage [3] for personal accounts. A mobile
-  version of the service is available for Android, BlackBerry, iOS, WebOS, and Windows
-  Phone devices. The company is based in Los Altos, California.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+x-slug: box
+description: Box is changing how you manage content across your business from simple
+  file sharing to building custom apps.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Storage
-- Storage
-- Stack Network
-- Stack
-- Sharing
-- Road Map
-- Publishing
-- Productivity
-- Files
-- Collaboration
-- Backup
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/box/apis.yaml
+x-alexaRank: "443"
+tags: Comments
+created: "2018-06-18"
+modified: "2018-06-18"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/box/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Box
-  description: Box Inc
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
-  humanURL: ""
-  baseURL: https://api.box.com//2.0
-  tags: Comments
+- name: Box Get File's Comments
+  x-api-slug: box
+  description: Retrieves the comments on a particular file, if any exist.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0//files/{FILE_ID}/comments
+  tags: Documents,Files, File, , Comments
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/box/filesfile-idcomments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/box/filesfile-idcomments-get-openapi.md
+- name: Box Create Comment
+  x-api-slug: box
+  description: Used to add a comment by the user to a specific file or comment (i.e.
+    as a reply comment).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0//comments
+  tags: Documents,Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/comments/master/_listings/box/comments-comment-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/box/comments-post-openapi.md
+- name: Box Get Comment
+  x-api-slug: box
+  description: Used to retrieve the message and metadata about a specific comment.
+    Information about the user who created the comment is also included.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0//comments/{COMMENT_ID}
+  tags: Documents,Comments, Comment
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/box/commentscomment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/box/commentscomment-id-get-openapi.md
+- name: Box Update Comment
+  x-api-slug: box
+  description: Used to update the message of the comment.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0//comments/{COMMENT_ID}
+  tags: Documents,Comments, Comment
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/box/commentscomment-id-put-openapi.md
 - name: Box Delete Comment
+  x-api-slug: box
   description: Permanently deletes a comment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0//comments/{COMMENT_ID}
+  tags: Documents,Comments, Comment
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/box/commentscomment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/box/commentscomment-id-delete-openapi.md
+- name: Box
+  x-api-slug: box
+  description: Box.net provides a sophisticated API for their online document sharing
+    and collaboration web application.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Comments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/box/comments-comment-id-delete.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/box/comments-comment-id-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/box/openapi.md
 x-common:
 - type: x-base
   url: https://api.box.com/
@@ -54,26 +90,8 @@ x-common:
   url: http://blog.box.com/feed/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/box
-- type: x-developer
-  url: http://developers.box.com
-- type: x-github
-  url: https://github.com/boxdotnet
-- type: x-pricing
-  url: https://developers.box.com/box-platform-pricing/
-- type: x-road-map
-  url: https://developers.box.com/roadmap/
-- type: x-twitter
-  url: https://twitter.com/BoxPlatform
-- type: x-website
-  url: http://box.com
-- type: x-base
-  url: https://api.box.com/
-- type: x-blog
-  url: http://blog.box.com/
-- type: x-blog-rss
-  url: http://blog.box.com/feed/
 - type: x-crunchbase
-  url: http://www.crunchbase.com/company/box
+  url: https://crunchbase.com/organization/box
 - type: x-developer
   url: http://developers.box.com
 - type: x-github
@@ -84,6 +102,8 @@ x-common:
   url: https://developers.box.com/roadmap/
 - type: x-twitter
   url: https://twitter.com/BoxPlatform
+- type: x-twitter
+  url: https://twitter.com/BoxHQ
 - type: x-website
   url: http://box.com
 include: []

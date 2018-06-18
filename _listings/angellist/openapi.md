@@ -1,0 +1,93 @@
+---
+swagger: "2.0"
+x-collection-name: AngelList
+x-complete: 1
+info:
+  title: AngelList
+  description: the-angellist-api-provides-developers-with-a-restful-interface-to-the-angellist-data-set--for-more-information-read-the-oauth-faq-
+  termsOfService: https://angel.co/terms
+  contact:
+    name: AngelList
+    url: https://angel.co/api
+    email: api@angel.co
+  version: v1
+host: api.angel.co
+basePath: /1/
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /comments:
+    get:
+      summary: Get Comments
+      description: Pulls the comments for given object.
+      operationId: comments
+      x-api-path-slug: comments-get
+      parameters:
+      - in: query
+        name: commentable_id
+      - in: query
+        name: commentable_type
+      responses:
+        200:
+          description: OK
+      tags:
+      - Startups
+      - Businesses
+      - Comments
+    post:
+      summary: Add Comment
+      description: Adds a comment for given object
+      operationId: comment
+      x-api-path-slug: comments-post
+      parameters:
+      - in: query
+        name: comment
+      - in: query
+        name: commentable_id
+      - in: query
+        name: commentable_type
+      responses:
+        200:
+          description: OK
+      tags:
+      - Startups
+      - Businesses
+      - Comments
+  /comments/{comment_id}:
+    delete:
+      summary: Delete Comment
+      description: Deletes a comment for given object
+      operationId: comment
+      x-api-path-slug: commentscomment-id-delete
+      parameters:
+      - in: path
+        name: comment_id
+        description: The comment id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Startups
+      - Businesses
+      - Comments
+  /startups/{startup_id}/comments:
+    get:
+      summary: Get Startup Comments
+      description: Get Startup Comments
+      operationId: startupComments
+      x-api-path-slug: startupsstartup-idcomments-get
+      parameters:
+      - in: path
+        name: startup_id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Startups
+      - Businesses
+      - Comments
+---
