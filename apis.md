@@ -4,7 +4,7 @@ description: This is a repository of comments APIs, self-contained as a Github r
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/comments.png
 created: "2018-02-24"
-modified: "2018-06-18"
+modified: "2018-06-25"
 url: http://comments.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -38,14 +38,14 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/apis.yaml
 - name: YouTube
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/youtube/apis.yaml
-- name: LinkedIn
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/linkedin/apis.yaml
-- name: Bitbucket
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/bitbucket/apis.yaml
 - name: Instagram
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/instagram/apis.yaml
 - name: Datadog
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/datadog/apis.yaml
+- name: LinkedIn
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/linkedin/apis.yaml
+- name: Bitbucket
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/bitbucket/apis.yaml
 - name: MotaWord
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/motaword/apis.yaml
 - name: MySpace Developers
@@ -56,8 +56,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/soundcloud/apis.yaml
 - name: Flat
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/flat/apis.yaml
-- name: UK National Archives Discovery
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/uk-national-archives-discovery/apis.yaml
+- name: UK National Archives
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/uk-national-archives/apis.yaml
 - name: Plivo
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/plivo/apis.yaml
 - name: Instructure
