@@ -1,49 +1,22 @@
 ---
 name: LinkedIn
 x-slug: linkedin
-description: 500 million+ members | Manage your professional identity. Build and engage
-  with your professional network. Access knowledge, insights and opportunities.
+description: DZone Software provides tools and processes to help customers accelerate
+  productivity through agile learning and knowledge-centered collaboration.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
 x-kinRank: "8"
 x-alexaRank: "34"
 tags: Comments
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/linkedin/apis.md
 specificationVersion: "0.14"
-apis:
-- name: LinkedIn Add Companies Updates Key Update Key Update Comments As Company
-  x-api-slug: linkedin
-  description: Post companies  updates key update key update comments as company
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
-  humanURL: http://linkedin.com
-  baseURL: https://api.linkedin.com//v1//companies/{id}/updates/key={update-key}/update-comments-as-company/
-  tags: Companies, , Updates, Key, Update, Key, Update, Comments, As, Company
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/linkedin/companiesidupdateskeyupdatekeyupdatecommentsascompany-post-openapi.md
-- name: LinkedIn Get Companies Updates Key Update Key Update Comments
-  x-api-slug: linkedin
-  description: Get companies  updates key update key update comments
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
-  humanURL: http://linkedin.com
-  baseURL: https://api.linkedin.com//v1//companies/{id}/updates/key={update-key}/update-comments
-  tags: Companies, , Updates, Key, Update, Key, Update, Comments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/linkedin/companiesidupdateskeyupdatekeyupdatecomments-get-openapi.md
-- name: LinkedIn
-  x-api-slug: linkedin
-  description: 500 million+ members | Manage your professional identity. Build and
-    engage with your professional network. Access knowledge, insights and opportunities.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
-  humanURL: http://linkedin.com
-  baseURL: https://api.linkedin.com//v1
-  tags: Comments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/linkedin/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://link.fish.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://linkedin.stack.network
 - type: x-authentication
   url: https://developer.linkedin.com/documents/authentication
 - type: x-base

@@ -16,32 +16,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /rest/?method=flickr.activity.userComments:
-    get:
-      summary: Activity User Comments
-      description: Returns a list of recent activity on photos commented on by the
-        calling user. Do not poll this method more than once an hour.
-      operationId: getRestMethodFlickr.activity.usercomments
-      x-api-path-slug: restmethodflickr-activity-usercomments-get
-      parameters:
-      - in: query
-        name: api_key
-        description: Your API application key
-      - in: query
-        name: format
-        description: Response format
-      - in: query
-        name: page
-        description: The page of results to return
-      - in: query
-        name: per_page
-        description: Number of items to return per page
-      responses:
-        200:
-          description: OK
-      tags:
-      - Activity
-      - UserComments
   /rest/?method=flickr.photos.comments.addComment:
     post:
       summary: Photos Comments Add Comment

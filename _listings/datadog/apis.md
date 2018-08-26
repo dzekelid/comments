@@ -6,59 +6,44 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-data
 x-kinRank: "8"
 x-alexaRank: "13593"
 tags: Comments
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/datadog/apis.md
 specificationVersion: "0.14"
 apis:
-- name: DataDog API Add Comments
-  x-api-slug: datadog-api
-  description: |-
-    Comments are essentially special forms of events that
-              appear in the stream. They can start a new discussion thread or
-              optionally, reply in another thread.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
-  humanURL: https://www.datadoghq.com/
-  baseURL: https:///api/v1//comments
-  tags: Monitoring,Comments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/datadog/comments-post-openapi.md
-- name: DataDog API Put Comments Comment
-  x-api-slug: datadog-api
+- name: DataDog Merged API - Put Comments Comment
+  x-api-slug: commentscomment-id-put
   description: PUT comments comment
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
-  baseURL: https:///api/v1//comments/:comment_id
-  tags: Monitoring,Comments, Comment
+  baseURL: https:///api/v1/
+  tags: Monitoring, Performance, Orchestration, Aggregation, Stack Network, SaaS,
+    Technology, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/datadog/commentscomment-id-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/datadog/commentscomment-id-put-openapi.md
-- name: DataDog API Delete Comments Comment
-  x-api-slug: datadog-api
+- name: DataDog Merged API - Delete Comments Comment
+  x-api-slug: commentscomment-id-delete
   description: DELETE comments comment
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
-  baseURL: https:///api/v1//comments/:comment_id
-  tags: Monitoring,Comments, Comment
+  baseURL: https:///api/v1/
+  tags: Monitoring, Performance, Orchestration, Aggregation, Stack Network, SaaS,
+    Technology, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/datadog/commentscomment-id-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/datadog/commentscomment-id-delete-openapi.md
-- name: DataDog API
-  x-api-slug: datadog-api
-  description: See inside any stack, any app, at any scale, anywhere.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
-  humanURL: https://www.datadoghq.com/
-  baseURL: https:///api/v1/
-  tags: Comments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/datadog/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://dataatwork.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://datadog.stack.network
 - type: x-blog
   url: https://www.datadoghq.com/blog/
 - type: x-blog-rss

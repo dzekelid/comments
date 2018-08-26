@@ -1,43 +1,40 @@
 ---
 name: Viddler
 x-slug: viddler
-description: www.viddler.com
+description: Viddler is an online sales training platform with integrated tools for
+  practice and evaluation. The Viddler service offers video-based instruction and
+  optional coaching, and allows customers to engage with course content through guided
+  assignments and self-recorded practice sessions.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
 x-kinRank: "8"
 x-alexaRank: "81111"
 tags: Comments
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/viddler/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Viddler  API Videos Comments Get
-  x-api-slug: viddler--api
+- name: Viddler  API - Videos Comments Get
+  x-api-slug: viddler-videos-comments-get-get
   description: Get comments for a video. If logged in and querying comments for own
     video &#8211; all comments with any moderation status will be returned. If quering
     comments as logged out or for not owned video &#8211; only approved comments will
     be returned if the video itself is public.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
   humanURL: http://www.viddler.com/
-  baseURL: https://api.viddler.com//api/v2/viddler.videos.comments.get
-  tags: Viddler,Videos,Comments,Get
+  baseURL: https://api.viddler.com//api/v2
+  tags: Videos, SaaS, Technology, Enterprise, internet, Sales, Trainings, Relative
+    Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/viddler/viddler-videos-comments-get-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/viddler/viddler-videos-comments-get-get-openapi.md
-- name: Viddler  API
-  x-api-slug: viddler--api
-  description: The Viddler API exposes Viddler&rsquo;s key features to those that
-    would like to build custom solutionson topof Viddler&rsquo;s video platform.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
-  humanURL: http://www.viddler.com/
-  baseURL: https://api.viddler.com//api/v2
-  tags: Comments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/viddler/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://victorops.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://viddler.stack.network
 - type: x-base
   url: http://api.viddler.com/api/
 - type: x-blog

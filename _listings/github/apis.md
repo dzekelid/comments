@@ -8,301 +8,262 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "64"
 tags: Comments
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Github Get Gists  Comments
-  x-api-slug: github
+- name: GitHub - Get Gists  Comments
+  x-api-slug: gistsidcomments-get
   description: List comments on a gist.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////gists/{id}/comments
-  tags: Gists, , Comments
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/gistsidcomments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/gistsidcomments-get-openapi.md
-- name: Github Add Gists  Comments
-  x-api-slug: github
-  description: Create a commen
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
-  humanURL: https://github.com
-  baseURL: https://api.github.com////gists/{id}/comments
-  tags: Gists, , Comments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/gistsidcomments-post-openapi.md
-- name: Github Delete Gists  Comments Comment
-  x-api-slug: github
+- name: GitHub - Delete Gists  Comments Comment
+  x-api-slug: gistsidcommentscommentid-delete
   description: Delete a comment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////gists/{id}/comments/{commentId}
-  tags: Gists, , Comments, Comment
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/gistsidcommentscommentid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/gistsidcommentscommentid-delete-openapi.md
-- name: Github Get Gists  Comments Comment
-  x-api-slug: github
+- name: GitHub - Get Gists  Comments Comment
+  x-api-slug: gistsidcommentscommentid-get
   description: Get a single comment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////gists/{id}/comments/{commentId}
-  tags: Gists, , Comments, Comment
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/gistsidcommentscommentid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/gistsidcommentscommentid-get-openapi.md
-- name: Github Patch Gists  Comments Comment
-  x-api-slug: github
-  description: Edit a comment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
-  humanURL: https://github.com
-  baseURL: https://api.github.com////gists/{id}/comments/{commentId}
-  tags: Gists, , Comments, Comment
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/gistsidcommentscommentid-patch-openapi.md
-- name: Github Get Repos Owner Repo Comments
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Comments
+  x-api-slug: reposownerrepocomments-get
   description: |-
     List commit comments for a repository.
     Comments are ordered by ascending ID.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/comments
-  tags: Repos, Owner, Repo, Comments
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepocomments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepocomments-get-openapi.md
-- name: Github Delete Repos Owner Repo Comments Comment
-  x-api-slug: github
+- name: GitHub - Delete Repos Owner Repo Comments Comment
+  x-api-slug: reposownerrepocommentscommentid-delete
   description: Delete a commit comment
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/comments/{commentId}
-  tags: Repos, Owner, Repo, Comments, Comment
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepocommentscommentid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepocommentscommentid-delete-openapi.md
-- name: Github Get Repos Owner Repo Comments Comment
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Comments Comment
+  x-api-slug: reposownerrepocommentscommentid-get
   description: Get a single commit comment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/comments/{commentId}
-  tags: Repos, Owner, Repo, Comments, Comment
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepocommentscommentid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepocommentscommentid-get-openapi.md
-- name: Github Patch Repos Owner Repo Comments Comment
-  x-api-slug: github
-  description: Update a commit comment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
-  humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/comments/{commentId}
-  tags: Repos, Owner, Repo, Comments, Comment
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepocommentscommentid-patch-openapi.md
-- name: Github Get Repos Owner Repo Commits Shacode Comments
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Commits Shacode Comments
+  x-api-slug: reposownerrepocommitsshacodecomments-get
   description: List comments for a single commitList comments for a single commit.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/commits/{shaCode}/comments
-  tags: Repos, Owner, Repo, Commits, Shacode, Comments
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepocommitsshacodecomments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepocommitsshacodecomments-get-openapi.md
-- name: Github Add Repos Owner Repo Commits Shacode Comments
-  x-api-slug: github
-  description: Create a commit comment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
-  humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/commits/{shaCode}/comments
-  tags: Repos, Owner, Repo, Commits, Shacode, Comments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepocommitsshacodecomments-post-openapi.md
-- name: Github Get Repos Owner Repo Issues Comments
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Issues Comments
+  x-api-slug: reposownerrepoissuescomments-get
   description: List comments in a repository.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/issues/comments
-  tags: Repos, Owner, Repo, Issues, Comments
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepoissuescomments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepoissuescomments-get-openapi.md
-- name: Github Delete Repos Owner Repo Issues Comments Comment
-  x-api-slug: github
+- name: GitHub - Delete Repos Owner Repo Issues Comments Comment
+  x-api-slug: reposownerrepoissuescommentscommentid-delete
   description: Delete a comment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/issues/comments/{commentId}
-  tags: Repos, Owner, Repo, Issues, Comments, Comment
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepoissuescommentscommentid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepoissuescommentscommentid-delete-openapi.md
-- name: Github Get Repos Owner Repo Issues Comments Comment
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Issues Comments Comment
+  x-api-slug: reposownerrepoissuescommentscommentid-get
   description: Get a single comment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/issues/comments/{commentId}
-  tags: Repos, Owner, Repo, Issues, Comments, Comment
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepoissuescommentscommentid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepoissuescommentscommentid-get-openapi.md
-- name: Github Patch Repos Owner Repo Issues Comments Comment
-  x-api-slug: github
-  description: Edit a comment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
-  humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/issues/comments/{commentId}
-  tags: Repos, Owner, Repo, Issues, Comments, Comment
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepoissuescommentscommentid-patch-openapi.md
-- name: Github Get Repos Owner Repo Issues Number Comments
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Issues Number Comments
+  x-api-slug: reposownerrepoissuesnumbercomments-get
   description: List comments on an issue.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/issues/{number}/comments
-  tags: Repos, Owner, Repo, Issues, Number, Comments
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepoissuesnumbercomments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepoissuesnumbercomments-get-openapi.md
-- name: Github Add Repos Owner Repo Issues Number Comments
-  x-api-slug: github
-  description: Create a comment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
-  humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/issues/{number}/comments
-  tags: Repos, Owner, Repo, Issues, Number, Comments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepoissuesnumbercomments-post-openapi.md
-- name: Github Get Repos Owner Repo Pulls Comments
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Pulls Comments
+  x-api-slug: reposownerrepopullscomments-get
   description: |-
     List comments in a repository.
     By default, Review Comments are ordered by ascending ID.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/pulls/comments
-  tags: Repos, Owner, Repo, Pulls, Comments
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepopullscomments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepopullscomments-get-openapi.md
-- name: Github Delete Repos Owner Repo Pulls Comments Comment
-  x-api-slug: github
+- name: GitHub - Delete Repos Owner Repo Pulls Comments Comment
+  x-api-slug: reposownerrepopullscommentscommentid-delete
   description: Delete a comment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/pulls/comments/{commentId}
-  tags: Repos, Owner, Repo, Pulls, Comments, Comment
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepopullscommentscommentid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepopullscommentscommentid-delete-openapi.md
-- name: Github Get Repos Owner Repo Pulls Comments Comment
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Pulls Comments Comment
+  x-api-slug: reposownerrepopullscommentscommentid-get
   description: Get a single comment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/pulls/comments/{commentId}
-  tags: Repos, Owner, Repo, Pulls, Comments, Comment
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepopullscommentscommentid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepopullscommentscommentid-get-openapi.md
-- name: Github Patch Repos Owner Repo Pulls Comments Comment
-  x-api-slug: github
-  description: Edit a comment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
-  humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/pulls/comments/{commentId}
-  tags: Repos, Owner, Repo, Pulls, Comments, Comment
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepopullscommentscommentid-patch-openapi.md
-- name: Github Get Repos Owner Repo Pulls Number Comments
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Pulls Number Comments
+  x-api-slug: reposownerrepopullsnumbercomments-get
   description: List comments on a pull request.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/pulls/{number}/comments
-  tags: Repos, Owner, Repo, Pulls, Number, Comments
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepopullsnumbercomments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepopullsnumbercomments-get-openapi.md
-- name: Github Add Repos Owner Repo Pulls Number Comments
-  x-api-slug: github
-  description: |-
-    Create a comment.
-      #TODO Alternative input ( http://developer.github.com/v3/pulls/comments/ )
-      description: |
-        Alternative Input.
-        Instead of passing commit_id, path, and position you can reply to an
-        existing Pull Request Comment like this:
-
-            body
-               Required string
-            in_reply_to
-               Required number - Comment id to reply to.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
-  humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/pulls/{number}/comments
-  tags: Repos, Owner, Repo, Pulls, Number, Comments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/reposownerrepopullsnumbercomments-post-openapi.md
-- name: Github
-  x-api-slug: github
-  description: GitHub brings together the worlds largest community of developers to
-    discover, share, and build better software. From open source projects to private
-    team repositories, were your all-in-one platform for collaborative development.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
-  humanURL: https://github.com
-  baseURL: https://api.github.com//
-  tags: Comments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/github/openapi.md
 x-common:
 - type: x--net-library
   url: https://github.com/octokit/octokit.net
+- type: x-api-gallery
+  url: http://giphy.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://github.stack.network
 - type: x-base
   url: https://api.github.com
 - type: x-blog
