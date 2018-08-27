@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Bitbucket
 x-complete: 1
@@ -390,4 +389,3 @@ paths:
       - ""
       - Comments
       - Comment
----

@@ -9,11 +9,96 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Comments
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/google-plus/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Google Plus - Get Activity Comments
+  x-api-slug: activitiesactivityidcomments-get
+  description: List all of the comments for an activity.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-plus.png
+  humanURL: https://plus.google.com/
+  baseURL: https:///
+  tags: Social, Google APIs, Domains, Stack Network, Social Networks, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/google-plus/activitiesactivityidcomments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/google-plus/activitiesactivityidcomments-get-openapi.md
+- name: Google Plus - Get Activity Comments
+  x-api-slug: activitiesactivityidcomments-get
+  description: List all of the comments for an activity.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-plus.png
+  humanURL: https://plus.google.com/
+  baseURL: https:///
+  tags: Social, Google APIs, Domains, Stack Network, Social Networks, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/google-plus/activitiesactivityidcomments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/google-plus/activitiesactivityidcomments-get-openapi.md
+- name: Google Plus - Get Comments
+  x-api-slug: commentscommentid-get
+  description: Get a comment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-plus.png
+  humanURL: https://plus.google.com/
+  baseURL: https:///
+  tags: Social, Google APIs, Domains, Stack Network, Social Networks, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/google-plus/commentscommentid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/google-plus/commentscommentid-get-openapi.md
+- name: Google Plus - Get Comment
+  x-api-slug: commentscommentid-get
+  description: Get a comment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-plus.png
+  humanURL: https://plus.google.com/
+  baseURL: https:///
+  tags: Social, Google APIs, Domains, Stack Network, Social Networks, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/google-plus/commentscommentid-get-openapi.md
+- name: Google Plus - Create Activity Comment
+  x-api-slug: activitiesactivityidcomments-post
+  description: Create a new comment in reply to an activity.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-plus.png
+  humanURL: https://plus.google.com/
+  baseURL: https:///
+  tags: Social, Google APIs, Domains, Stack Network, Social Networks, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/google-plus/activitiesactivityidcomments-post-openapi.md
+- name: Google Plus - Get Comment
+  x-api-slug: commentscommentid-get
+  description: Get a comment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-plus.png
+  humanURL: https://plus.google.com/
+  baseURL: https:///
+  tags: Social, Google APIs, Domains, Stack Network, Social Networks, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/google-plus/commentscommentid-get-openapi.md
+- name: Google Plus - Get Comments
+  x-api-slug: commentscommentid-get
+  description: Get a comment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-plus.png
+  humanURL: https://plus.google.com/
+  baseURL: https:///
+  tags: Social, Google APIs, Domains, Stack Network, Social Networks, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/google-plus/commentscommentid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/google-plus/commentscommentid-get-openapi.md
 - name: Google Plus - Get Activity Comments
   x-api-slug: activitiesactivityidcomments-get
   description: List all of the comments for an activity.

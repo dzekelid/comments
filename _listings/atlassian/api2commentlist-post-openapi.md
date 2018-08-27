@@ -17,6 +17,43 @@ produces:
 consumes:
 - application/json
 paths:
+  /content/{id}/child/comment:
+    get:
+      summary: Get content comments
+      description: "Returns the comments on a piece of content.\n\n**[Permissions](https://confluence.atlassian.com/x/_AozKw)
+        required**: 'View' permission for the space, \nand permission to view the
+        content if it is a page."
+      operationId: com.atlassian.confluence.plugins.restapi.resources.ChildContentResource.getContentComments_get
+      x-api-path-slug: contentidchildcomment-get
+      parameters:
+      - in: query
+        name: depth
+        description: Currently, this parameter is not used
+      - in: query
+        name: expand
+        description: A multi-value parameter indicating which properties of the attachments
+          to expand
+      - in: path
+        name: id
+        description: The ID of the content to be queried for its comments
+      - in: query
+        name: limit
+        description: The maximum number of comments to return per page
+      - in: query
+        name: location
+        description: The location of the comments in the page
+      - in: query
+        name: parentVersion
+        description: The version of the parent content to retrieve children for
+      - in: query
+        name: start
+        description: The starting index of the returned comments
+      responses:
+        200:
+          description: OK
+      tags:
+      - Content
+      - Comments
   /api/2/comment/list:
     post:
       summary: Get comments by ids

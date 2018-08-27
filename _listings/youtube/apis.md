@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-yout
 x-kinRank: "9"
 x-alexaRank: "2"
 tags: Comments
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/youtube/apis.md
 specificationVersion: "0.14"
 apis:
@@ -40,6 +40,31 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/youtube/comments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/youtube/comments-get-openapi.md
+- name: YouTube - Add Comments
+  x-api-slug: comments-post
+  description: 'Creates a reply to an existing comment. Note: To create a top-level
+    comment, use the commentThreads.insert method.'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
+  humanURL: https://www.youtube.com/
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/youtube/comments-post-openapi.md
+- name: YouTube - Put Comments
+  x-api-slug: comments-put
+  description: Modifies a comment.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
+  humanURL: https://www.youtube.com/
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/youtube/comments-put-openapi.md
 - name: YouTube - Add Comments Mark as SPAM
   x-api-slug: commentsmarkasspam-post
   description: Expresses the caller's opinion that one or more comments should be

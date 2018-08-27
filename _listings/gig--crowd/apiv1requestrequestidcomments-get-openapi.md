@@ -34,6 +34,28 @@ paths:
       - Request
       - Requestid
       - Comments
+    post:
+      summary: Post Request Requestid Comments
+      description: Post request requestid comments.
+      operationId: postApiV1RequestRequestComments
+      x-api-path-slug: apiv1requestrequestidcomments-post
+      parameters:
+      - in: header
+        name: Authorization
+      - in: body
+        name: model
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: requestId
+        description: /
+      responses:
+        200:
+          description: OK
+      tags:
+      - Request
+      - Requestid
+      - Comments
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

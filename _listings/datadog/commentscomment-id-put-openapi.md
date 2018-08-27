@@ -42,6 +42,18 @@ paths:
       - Monitoring
       - Comments
       - Comment
+    delete:
+      summary: Delete Comments Comment
+      description: DELETE comments comment
+      operationId: deleteCommentsComment
+      x-api-path-slug: commentscomment-id-delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - Comments
+      - Comment
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -7,11 +7,37 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linked
 x-kinRank: "8"
 x-alexaRank: "34"
 tags: Comments
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/linkedin/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: LinkedIn - Add Companies Updates Key Update Key Update Comments As Company
+  x-api-slug: companiesidupdateskeyupdatekeyupdatecommentsascompany-post
+  description: Post companies  updates key update key update comments as company
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1
+  tags: Social, My API Stack, Indie EdTech Data Jam, Stack Network, Stack, Social
+    Networks, internet, SaaS, Mobile, Technology, API Provider, API Service Provider,
+    SDIO Syndication, Social, Social Networks, Profiles, Service API, General Data,
+    Relative Data, Pedestal, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/linkedin/companiesidupdateskeyupdatekeyupdatecommentsascompany-post-openapi.md
+- name: LinkedIn - Get Companies Updates Key Update Key Update Comments
+  x-api-slug: companiesidupdateskeyupdatekeyupdatecomments-get
+  description: Get companies  updates key update key update comments
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1
+  tags: Social, My API Stack, Indie EdTech Data Jam, Stack Network, Stack, Social
+    Networks, internet, SaaS, Mobile, Technology, API Provider, API Service Provider,
+    SDIO Syndication, Social, Social Networks, Profiles, Service API, General Data,
+    Relative Data, Pedestal, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/linkedin/companiesidupdateskeyupdatekeyupdatecomments-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://link.fish.api.gallery.streamdata.io

@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-
 x-kinRank: "8"
 x-alexaRank: "126"
 tags: Comments
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
@@ -220,6 +220,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/usersidscommentstoid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/usersidscommentstoid-get-openapi.md
+- name: Stack Exchange - Get Answer Comments
+  x-api-slug: answersidscomments-get
+  description: "Gets the comments on a set of answers.\n \nIf you know that you have
+    an answer id and need the comments, use this method. If you know you have a question
+    id, use /questions/{id}/comments. If you are unsure, use /posts/{id}/comments.\n
+    \n{ids} can contain up to 100 semicolon delimited ids, to find ids programatically
+    look for answer_id on answer objects.\n \nThe sorts accepted by this method operate
+    on the follow fields of the comment object:\n - creation - creation_date\n - votes
+    - score\n  creation is the default sort.\n \n It is possible to create moderately
+    complex queries using sort, min, max, fromdate, and todate.\n \nThis method returns
+    a list of comments."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
+  humanURL: http://stackexchange.com
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/answersidscomments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/stack-exchange/answersidscomments-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://square.api.gallery.streamdata.io

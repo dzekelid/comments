@@ -78,6 +78,43 @@ paths:
       - Documents
       - Comments
       - Comment
+    put:
+      summary: Update Comment
+      description: Used to update the message of the comment.
+      operationId: updateComment
+      x-api-path-slug: commentscomment-id-put
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: COMMENT_ID
+      - in: query
+        name: fields
+        description: Attribute(s) to include in the response
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Comments
+      - Comment
+    delete:
+      summary: Delete Comment
+      description: Permanently deletes a comment.
+      operationId: deleteComment
+      x-api-path-slug: commentscomment-id-delete
+      parameters:
+      - in: path
+        name: COMMENT_ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Comments
+      - Comment
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

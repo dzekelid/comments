@@ -264,6 +264,134 @@ paths:
       - ""
       - Comments
       - Comment
+  /snippets/{username}/{encoded_id}/comments:
+    get:
+      summary: Get Snippets Username Encoded  Comments
+      description: |-
+        Used to retrieve a paginated list of all comments for a specific
+        snippet.
+
+        This resource works identical to commit and pull request comments.
+
+        The default sorting is oldest to newest and can be overridden with
+        the `sort` query parameter.
+      operationId: getSnippetsUsernameEncodedComments
+      x-api-path-slug: snippetsusernameencoded-idcomments-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Snippets
+      - Username
+      - Encoded
+      - ""
+      - Comments
+    parameters:
+      summary: Parameters Snippets Username Encoded  Comments
+      description: Parameters snippets username encoded  comments
+      operationId: parametersSnippetsUsernameEncodedComments
+      x-api-path-slug: snippetsusernameencoded-idcomments-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Snippets
+      - Username
+      - Encoded
+      - ""
+      - Comments
+    post:
+      summary: Add Snippets Username Encoded  Comments
+      description: |-
+        Creates a new comment.
+
+        The only required field in the body is `content.raw`.
+
+        To create a threaded reply to an existing comment, include `parent.id`.
+      operationId: postSnippetsUsernameEncodedComments
+      x-api-path-slug: snippetsusernameencoded-idcomments-post
+      parameters:
+      - in: body
+        name: _body
+        description: The contents of the new comment
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Snippets
+      - Username
+      - Encoded
+      - ""
+      - Comments
+  /snippets/{username}/{encoded_id}/comments/{comment_id}:
+    delete:
+      summary: Delete Snippets Username Encoded  Comments Comment
+      description: |-
+        Deletes a snippet comment.
+
+        Comments can only be removed by their author.
+      operationId: deleteSnippetsUsernameEncodedCommentsComment
+      x-api-path-slug: snippetsusernameencoded-idcommentscomment-id-delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - Snippets
+      - Username
+      - Encoded
+      - ""
+      - Comments
+      - Comment
+    get:
+      summary: Get Snippets Username Encoded  Comments Comment
+      description: Get snippets username encoded  comments comment
+      operationId: getSnippetsUsernameEncodedCommentsComment
+      x-api-path-slug: snippetsusernameencoded-idcommentscomment-id-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Snippets
+      - Username
+      - Encoded
+      - ""
+      - Comments
+      - Comment
+    parameters:
+      summary: Parameters Snippets Username Encoded  Comments Comment
+      description: Parameters snippets username encoded  comments comment
+      operationId: parametersSnippetsUsernameEncodedCommentsComment
+      x-api-path-slug: snippetsusernameencoded-idcommentscomment-id-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Snippets
+      - Username
+      - Encoded
+      - ""
+      - Comments
+      - Comment
+    put:
+      summary: Update Snippets Username Encoded  Comments Comment
+      description: |-
+        Updates a comment.
+
+        Comments can only be updated by their author.
+      operationId: putSnippetsUsernameEncodedCommentsComment
+      x-api-path-slug: snippetsusernameencoded-idcommentscomment-id-put
+      responses:
+        200:
+          description: OK
+      tags:
+      - Snippets
+      - Username
+      - Encoded
+      - ""
+      - Comments
+      - Comment
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -39,6 +39,39 @@ paths:
           description: OK
       tags:
       - Comment
+    post:
+      summary: Create Activity Comment
+      description: Create a new comment in reply to an activity.
+      operationId: plusDomains.comments.insert
+      x-api-path-slug: activitiesactivityidcomments-post
+      parameters:
+      - in: path
+        name: activityId
+        description: The ID of the activity to reply to
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Activity
+  /comments/{commentId}:
+    get:
+      summary: Get Comments
+      description: Get a comment.
+      operationId: plus.comments.get
+      x-api-path-slug: commentscommentid-get
+      parameters:
+      - in: path
+        name: commentId
+        description: The ID of the comment to get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Comment
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Flat
 x-complete: 1
@@ -36,4 +35,89 @@ paths:
       tags:
       - List
       - Comments
----
+    post:
+      summary: Post a new comment
+      description: |-
+        Post a document or a contextualized comment on a document.
+
+        Please note that this method includes an anti-spam system for public scores. We don't guarantee that your comments will be accepted and displayed to end-user. Comments are be blocked by returning a `403` HTTP error and hidden from other users when the `spam` property is `true`.
+      operationId: postScoreComment
+      x-api-path-slug: scoresscorecomments-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - New
+      - Comment
+  /scores/{score}/comments/{comment}:
+    delete:
+      summary: Delete a comment
+      description: ""
+      operationId: deleteScoreComment
+      x-api-path-slug: scoresscorecommentscomment-delete
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Comment
+    put:
+      summary: Update an existing comment
+      description: ""
+      operationId: updateScoreComment
+      x-api-path-slug: scoresscorecommentscomment-put
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Existing
+      - Comment
+  /scores/{score}/comments/{comment}/resolved:
+    delete:
+      summary: Mark the comment as unresolved
+      description: ""
+      operationId: markScoreCommentUnresolved
+      x-api-path-slug: scoresscorecommentscommentresolved-delete
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Mark
+      - Comment
+      - As
+      - Unresolved
+    put:
+      summary: Mark the comment as resolved
+      description: ""
+      operationId: markScoreCommentResolved
+      x-api-path-slug: scoresscorecommentscommentresolved-put
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Mark
+      - Comment
+      - As
+      - Resolved

@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty
 x-kinRank: "8"
 x-alexaRank: "1939"
 tags: Comments
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/getty-images/apis.md
 specificationVersion: "0.14"
 apis:
@@ -32,6 +32,23 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/getty-images/v3boardsboard-idcomments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/getty-images/v3boardsboard-idcomments-get-openapi.md
+- name: Getty Images - Add a comment to a board
+  x-api-slug: v3boardsboard-idcomments-post
+  description: "Boards are where you collect, curate, collaborate on and manage photo
+    and video assets in one place. More information on the [Boards FAQ](http://www.gettyimages.com/boards/faq).\r\nUse
+    this endpoint to add a comment to a board.\r\n\r\nYou'll need an API key and a
+    [Resource Owner Grant](http://developers.gettyimages.com/en/authorization-faq.html)
+    access token to use this resource. Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
+    page for more information on how to sign up for an API key."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
+  humanURL: http://www.gettyimages.com/
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/getty-images/v3boardsboard-idcomments-post-openapi.md
 - name: Getty Images - Delete a comment from a board
   x-api-slug: v3boardsboard-idcommentscomment-id-delete
   description: "Boards are where you collect, curate, collaborate on and manage photo

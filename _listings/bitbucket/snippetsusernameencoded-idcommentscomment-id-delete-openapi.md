@@ -345,6 +345,54 @@ paths:
       - ""
       - Comments
       - Comment
+    get:
+      summary: Get Snippets Username Encoded  Comments Comment
+      description: Get snippets username encoded  comments comment
+      operationId: getSnippetsUsernameEncodedCommentsComment
+      x-api-path-slug: snippetsusernameencoded-idcommentscomment-id-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Snippets
+      - Username
+      - Encoded
+      - ""
+      - Comments
+      - Comment
+    parameters:
+      summary: Parameters Snippets Username Encoded  Comments Comment
+      description: Parameters snippets username encoded  comments comment
+      operationId: parametersSnippetsUsernameEncodedCommentsComment
+      x-api-path-slug: snippetsusernameencoded-idcommentscomment-id-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Snippets
+      - Username
+      - Encoded
+      - ""
+      - Comments
+      - Comment
+    put:
+      summary: Update Snippets Username Encoded  Comments Comment
+      description: |-
+        Updates a comment.
+
+        Comments can only be updated by their author.
+      operationId: putSnippetsUsernameEncodedCommentsComment
+      x-api-path-slug: snippetsusernameencoded-idcommentscomment-id-put
+      responses:
+        200:
+          description: OK
+      tags:
+      - Snippets
+      - Username
+      - Encoded
+      - ""
+      - Comments
+      - Comment
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

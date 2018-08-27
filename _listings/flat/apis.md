@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Comments
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/flat/apis.md
 specificationVersion: "0.14"
 apis:
@@ -27,6 +27,112 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/flat/scoresscorecomments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/flat/scoresscorecomments-get-openapi.md
+- name: Flat - Post a new comment
+  x-api-slug: scoresscorecomments-post
+  description: |-
+    Post a document or a contextualized comment on a document.
+
+    Please note that this method includes an anti-spam system for public scores. We don't guarantee that your comments will be accepted and displayed to end-user. Comments are be blocked by returning a `403` HTTP error and hidden from other users when the `spam` property is `true`.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/flat/scoresscorecomments-post-openapi.md
+- name: Flat - Delete a comment
+  x-api-slug: scoresscorecommentscomment-delete
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/flat/scoresscorecommentscomment-delete-openapi.md
+- name: Flat - Update an existing comment
+  x-api-slug: scoresscorecommentscomment-put
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/flat/scoresscorecommentscomment-put-openapi.md
+- name: Flat - Mark the comment as unresolved
+  x-api-slug: scoresscorecommentscommentresolved-delete
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/flat/scoresscorecommentscommentresolved-delete-openapi.md
+- name: Flat - Mark the comment as resolved
+  x-api-slug: scoresscorecommentscommentresolved-put
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/flat/scoresscorecommentscommentresolved-put-openapi.md
+- name: Flat - Mark the comment as resolved
+  x-api-slug: scoresscorecommentscommentresolved-put
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/flat/scoresscorecommentscommentresolved-put-openapi.md
+- name: Flat - Mark the comment as unresolved
+  x-api-slug: scoresscorecommentscommentresolved-delete
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/flat/scoresscorecommentscommentresolved-delete-openapi.md
+- name: Flat - Update an existing comment
+  x-api-slug: scoresscorecommentscomment-put
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/flat/scoresscorecommentscomment-put-openapi.md
+- name: Flat - Delete a comment
+  x-api-slug: scoresscorecommentscomment-delete
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/flat/scoresscorecommentscomment-delete-openapi.md
+- name: Flat - Post a new comment
+  x-api-slug: scoresscorecomments-post
+  description: |-
+    Post a document or a contextualized comment on a document.
+
+    Please note that this method includes an anti-spam system for public scores. We don't guarantee that your comments will be accepted and displayed to end-user. Comments are be blocked by returning a `403` HTTP error and hidden from other users when the `spam` property is `true`.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/comments/master/_listings/flat/scoresscorecomments-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://fitbit.api.gallery.streamdata.io
